@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29319.158
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel Planner", "Travel Planner\Travel Planner.csproj", "{BF0C122C-0CAC-4EBC-8498-C3D25529935E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelPlannerLibrary", "TravelPlannerLibrary\TravelPlannerLibrary.csproj", "{D35E0050-D84B-4EDC-BE36-D779BB676B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0C122C-0CAC-4EBC-8498-C3D25529935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0C122C-0CAC-4EBC-8498-C3D25529935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0C122C-0CAC-4EBC-8498-C3D25529935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0C122C-0CAC-4EBC-8498-C3D25529935E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35E0050-D84B-4EDC-BE36-D779BB676B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35E0050-D84B-4EDC-BE36-D779BB676B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35E0050-D84B-4EDC-BE36-D779BB676B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35E0050-D84B-4EDC-BE36-D779BB676B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0C6AD9-8C5C-43F8-AA8B-1470648DEB28}
+	EndGlobalSection
+EndGlobal
