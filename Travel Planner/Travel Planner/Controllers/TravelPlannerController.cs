@@ -11,10 +11,13 @@ namespace Travel_Planner.Controllers
     public class TravelPlannerController : ControllerBase
     {
         Plan[] plan;
-        private static readonly HttpClient client = new HttpClient() { };
         private static TravelPlannerLibrary.TravelPlannerLibrary library = new TravelPlannerLibrary.TravelPlannerLibrary();
+        private HttpClient client;
 
-        public TravelPlannerController() { }
+        public TravelPlannerController(IHttpClientFactory clientFactory) {
+            client = clientFactory.CreateClient(); ;
+
+        }
 
         [HttpGet]
         public async Task<IActionResult> GetAsync([FromQuery] string from, [FromQuery] string to, [FromQuery] string start)
